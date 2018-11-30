@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ff"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:minHeight="30dp">
+        <TextView
+                android:id="@+id/id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Nama  :"/>
+        <TextView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#130e0e"
+                android:text="Wawan hidayatullah "/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#960aea"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="290dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#231e1e"
+                android:text="Alamat :"/>
+        <TextView
+                android:id="@+id/id4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#362e2e"
+                android:text="Wanasaba"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be6577"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#de7"
+                android:text="NIM  :"/>
+        <TextView
+                android:id="@+id/id6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="170202106"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0dffff"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Prodi  : "/>
+        <TextView
+                android:id="@+id/id8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Teknik Informatika"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6dbf5b"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="135dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Kelas  :"/>
+        <TextView
+                android:id="@+id/id10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Ti C"/>
+
+
